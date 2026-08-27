@@ -1,0 +1,46 @@
+.right-column {
+    padding: 42px 50px;
+}
+
+.right-column section {
+    margin-bottom: 35px;
+}
+
+.profile-text {
+    margin: 0;
+    line-height: 1.45;
+    text-align: justify;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 25px;
+    margin-bottom: 22px;
+    padding: 10px;
+    border-left: 4px solid transparent;
+    transition: background-color 0.3s, border-left-color 0.3s;
+}
+
+.item:hover {
+    background-color: var(--secondary-color);
+    border-left-color: var(--primary-color);
+}
+
+.item h3 {
+    margin: 0 0 2px;
+    font-size: 1rem;
+}
+
+.item p {
+    margin: 0;
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
+.item time {
+    flex: none;
+    color: var(--primary-color);
+    font-style: italic;
+}

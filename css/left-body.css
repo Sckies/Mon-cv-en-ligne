@@ -1,0 +1,54 @@
+.left-column {
+    min-height: 850px;
+    padding: 42px 48px;
+    background-color: #edf0f1;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 0 0 10px;
+}
+
+.skill > span {
+    font-weight: bold;
+}
+
+.stars {
+    flex: none;
+    margin-left: auto;
+    color: var(--primary-color);
+    letter-spacing: 1px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.languages p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin: 0 0 10px;
+}
+
+.languages p span {
+    text-align: right;
+}
+
+.left-column ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.left-column li {
+    margin: 8px 0;
+}
+
+.left-column li::before {
+    content: "■";
+    margin-right: 13px;
+    color: var(--primary-color);
+    font-size: 0.9rem;
+}
