@@ -52,3 +52,32 @@ body {
   font-size: 1.45rem;
   font-weight: 400;
 }
+
+@media screen and (max-width: 750px) {
+
+  .cv {
+    width: 100%;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .header-left,
+  .header-right {
+    width: 100%;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .left-body,
+  .right-body {
+    width: 100%;
+  }
+
+  .infos {
+    grid-template-columns: 1fr;
+  }
+}
